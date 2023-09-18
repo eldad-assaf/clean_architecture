@@ -5,8 +5,10 @@ import 'package:clean_architecture/features/daily_news/domain/repositories/artic
 
 class GetArticleUseCase
     implements UseCase<DataState<List<ArticleEntity>>, void> {
+
   final ArticleRepository _articleRepository;
   GetArticleUseCase(this._articleRepository);
+  
   @override
   Future<DataState<List<ArticleEntity>>> call({void params}) {
     return _articleRepository.getNewsArticale();
