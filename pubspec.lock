@@ -82,7 +82,7 @@ packages:
     source: hosted
     version: "2.3.2"
   build_runner:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: build_runner
       sha256: "10c6bcdbf9d049a0b666702cf1cee4ddfdc38f02a19d35ae392863b47519848b"
@@ -282,7 +282,7 @@ packages:
     source: hosted
     version: "1.4.2"
   floor_generator:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: floor_generator
       sha256: "40aaf1b619adc03367ce4b7c79161e3198d43b572b5ec9cc99a4a89de27b08d2"
@@ -628,7 +628,7 @@ packages:
     source: hosted
     version: "4.0.1"
   retrofit_generator:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: retrofit_generator
       sha256: "9499eb46b3657a62192ddbc208ff7e6c6b768b19e83c1ee6f6b119c864b99690"
