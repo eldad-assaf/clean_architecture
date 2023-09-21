@@ -41,11 +41,12 @@ class ArticleRepositoryImpl extends ArticleRepository {
 
   @override
   Future<void> removeArticle(ArticleEntity article) async {
-    _appDatabase.articleDao.deleteArticle(article);
+    _appDatabase.articleDao.deleteArticle(ArticleModel.fromEntity(article));
   }
 
   @override
   Future<void> saveArticle(ArticleEntity article) {
-    return _appDatabase.articleDao.insertArticle(article);
+    return _appDatabase.articleDao
+        .insertArticle(ArticleModel.fromEntity(article));
   }
 }
