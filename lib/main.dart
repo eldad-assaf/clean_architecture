@@ -1,3 +1,4 @@
+import 'package:clean_architecture/config/routes/app_routes.dart';
 import 'package:clean_architecture/features/daily_news/presentation/bloc/article/remote/bloc/remote_article_bloc.dart';
 import 'package:clean_architecture/features/daily_news/presentation/bloc/article/remote/bloc/remote_article_event.dart';
 import 'package:clean_architecture/features/daily_news/presentation/pages/home/daily_news.dart';
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'Flutter Demo',
         theme: theme(),
+        onGenerateRoute: AppRoutes.onGenerateRoutes,
         home: const DailyNews(),
       ),
     );
