@@ -1,16 +1,11 @@
-# clean_architecture
+# Daily News App
 
-A new Flutter project.
+Daily News App is a simple news application developed for the purpose of learning clean code principles and basic UI design. This project demonstrates the implementation of clean code practices and follows a well-organized folder structure. The app incorporates several functionalities and skills, including data fetching using Retrofit/Dio package, local storage of news articles using SQL (Floor package), state management with BLoC pattern, and dependency injection with GetIt.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **API Data Fetching:** The app fetches news data from a remote API using the Retrofit/Dio package for efficient networking operations.
+- **Local Storage:** News articles are saved locally using SQL database, facilitated by the Floor package. This allows users to access previously loaded articles even without an internet connection.
+- **State Management:** BLoC (Business Logic Component) pattern is employed for state management, ensuring a clear separation of concerns and an organized flow of data in the app.
+- **Dependency Injection:** GetIt is used for dependency injection, providing a clean and efficient way to manage the app's components and services.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
