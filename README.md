@@ -10,10 +10,9 @@ Daily News App is a simple news application developed for the purpose of learnin
 - **Dependency Injection:** GetIt is used for dependency injection, providing a clean and efficient way to manage the app's components and services.
 
 <p float="left">
-  <img src="images/Signup.png" alt="" width="300" />
-  <img src="images/Login.png" alt="" width="300" />
-  <img src="images/CreateTask.png" alt="" width="300" />
-  <img src="images/Update.png" alt="" width="300" />
-  <img src="images/Profile.png" alt="" width="300" />
+  <img src="images/main.png" alt="" width="300" />
+  <img src="images/news_article.png" alt="" width="300" />
+  <img src="images/saved_articles.png" alt="" width="300" />
+
 
 </p>
