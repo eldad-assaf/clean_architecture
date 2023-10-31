@@ -9,3 +9,11 @@ Daily News App is a simple news application developed for the purpose of learnin
 - **State Management:** BLoC (Business Logic Component) pattern is employed for state management, ensuring a clear separation of concerns and an organized flow of data in the app.
 - **Dependency Injection:** GetIt is used for dependency injection, providing a clean and efficient way to manage the app's components and services.
 
+<p float="left">
+  <img src="images/Signup.png" alt="" width="300" />
+  <img src="images/Login.png" alt="" width="300" />
+  <img src="images/CreateTask.png" alt="" width="300" />
+  <img src="images/Update.png" alt="" width="300" />
+  <img src="images/Profile.png" alt="" width="300" />
+
+</p>
