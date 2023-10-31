@@ -1,6 +1,6 @@
-import 'package:clean_architecture/features/daily_news/domain/usecases/get_save_article.dart';
-import 'package:clean_architecture/features/daily_news/presentation/bloc/article/local/local_article_event.dart';
-import 'package:clean_architecture/features/daily_news/presentation/bloc/article/local/local_article_state.dart';
+import 'package:daily_news/features/daily_news/domain/usecases/get_save_article.dart';
+import 'package:daily_news/features/daily_news/presentation/bloc/article/local/local_article_event.dart';
+import 'package:daily_news/features/daily_news/presentation/bloc/article/local/local_article_state.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../../domain/usecases/remove_article.dart';
 import '../../../../domain/usecases/save_article.dart';

@@ -1,9 +1,8 @@
-import 'dart:developer';
 
-import 'package:clean_architecture/core/resources/data_state.dart';
-import 'package:clean_architecture/features/daily_news/domain/usecases/get_article.dart';
-import 'package:clean_architecture/features/daily_news/presentation/bloc/article/remote/bloc/remote_article_event.dart';
-import 'package:clean_architecture/features/daily_news/presentation/bloc/article/remote/bloc/remote_article_state.dart';
+import 'package:daily_news/core/resources/data_state.dart';
+import 'package:daily_news/features/daily_news/domain/usecases/get_article.dart';
+import 'package:daily_news/features/daily_news/presentation/bloc/article/remote/bloc/remote_article_event.dart';
+import 'package:daily_news/features/daily_news/presentation/bloc/article/remote/bloc/remote_article_state.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class RemoteArticlesBloc

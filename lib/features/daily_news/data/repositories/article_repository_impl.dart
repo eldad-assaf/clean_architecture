@@ -1,10 +1,9 @@
 import 'dart:io';
-
-import 'package:clean_architecture/core/resources/data_state.dart';
-import 'package:clean_architecture/features/daily_news/data/datasources/local/app_database.dart';
-import 'package:clean_architecture/features/daily_news/data/models/article.dart';
-import 'package:clean_architecture/features/daily_news/domain/entities/article.dart';
-import 'package:clean_architecture/features/daily_news/domain/repositories/article_repository.dart';
+import 'package:daily_news/core/resources/data_state.dart';
+import 'package:daily_news/features/daily_news/data/datasources/local/app_database.dart';
+import 'package:daily_news/features/daily_news/data/models/article.dart';
+import 'package:daily_news/features/daily_news/domain/entities/article.dart';
+import 'package:daily_news/features/daily_news/domain/repositories/article_repository.dart';
 import 'package:dio/dio.dart';
 import '../../../../core/constants/constants.dart';
 import '../datasources/remote/news_api_service.dart';

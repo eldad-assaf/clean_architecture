@@ -1,4 +1,4 @@
-import 'package:clean_architecture/features/daily_news/presentation/pages/saved_article/saved_article.dart';
+import 'package:daily_news/features/daily_news/presentation/pages/saved_article/saved_article.dart';
 import 'package:flutter/material.dart';
 import '../../features/daily_news/domain/entities/article.dart';
 import '../../features/daily_news/presentation/pages/article_detail/article_detail.dart';

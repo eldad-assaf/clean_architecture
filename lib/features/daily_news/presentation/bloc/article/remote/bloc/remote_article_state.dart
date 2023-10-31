@@ -1,4 +1,4 @@
-import 'package:clean_architecture/features/daily_news/domain/entities/article.dart';
+import 'package:daily_news/features/daily_news/domain/entities/article.dart';
 import 'package:equatable/equatable.dart';
 import 'package:dio/dio.dart';
 

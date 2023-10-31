@@ -1,4 +1,4 @@
-import 'package:clean_architecture/features/daily_news/data/models/article.dart';
+import 'package:daily_news/features/daily_news/data/models/article.dart';
 import 'package:floor/floor.dart';
 
 @dao
